@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'Inter-R400';
+  font-weight: 400;
+  src:  url("../../public/assets/fonts/Inter-Regular.woff") format('woff'),
+  url("../../public/assets/fonts/Inter-Regular.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter-B700';
+  font-weight: 700;
+  src: url("../../public/assets/fonts/Inter-Bold.woff") format('woff'),
+  url("../../public/assets/fonts/Inter-Bold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter-EB800';
+  font-weight: 800;
+  src:  url("../../public/assets/fonts/Inter-ExtraBold.woff") format('woff'),
+  url("../../public/assets/fonts/Inter-ExtraBold.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Inter-M500';
+  font-weight: 500;
+  src:  url("../../public/assets/fonts/Inter-Medium.woff") format('woff'),
+  url("../../public/assets/fonts/Inter-Medium.woff2") format('woff2');
+}
+
+@font-face {
+  font-family: 'Nunito-EB800';
+  font-weight: 800;
+  src:  url("../../public/assets/fonts/NunitoSans-ExtraBold.woff") format('woff');
+}
+
+@font-face {
+  font-family: 'IBM';
+  src:  url("../../public/assets/fonts/IBMPlexSans-Thin.woff") format('woff');
+}
+
+$main-color: #000;
+$title-color: #080B0E;
+$description-color: #898C90;
+$date-color: #C1C1C1;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Inter-R400, sans-serif;
+  font-size: 20px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+
